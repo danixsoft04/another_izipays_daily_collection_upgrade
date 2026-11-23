@@ -1,0 +1,6 @@
+.daily-collections-toolbar{display:flex;flex-wrap:wrap;gap:.6rem;align-items:end}
+.daily-collections-toolbar .form-control,.daily-collections-toolbar .form-select{min-width:145px}
+.daily-collection-student{min-width:220px}
+.daily-collection-actions{white-space:nowrap}
+.daily-collection-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media(max-width:650px){.daily-collection-summary{grid-template-columns:1fr}.daily-collection-student{min-width:180px}}
